@@ -25,3 +25,15 @@ int main(void) {
 
 	return 0;
 }
+
+/*
+	1. NOTE : BUILD
+
+	Should work with make in project folder,
+	but its better to configure code runner for this purpose
+
+	2. NOTE : FLASHING
+
+	st-flash --reset write stm_blink_led_test.bin 0x8000000     
+*/
+
